@@ -108,25 +108,20 @@ section a {
 	color: #000;
 }
 
-section .images {
-	margin: 30px;
-	min-height: 80px;
+section iframe {
+	margin: 40px auto;
+	width: 700px;
+	height: 490px;
+	display: block;
+	border: 10px solid rgba(0,0,0,0.1);
 }
 
-section .images img {
-  float: left;
-  width: 15%;
-  margin-left: 2%;
-  margin-right: 2%;
-  border: 2px solid rgba(0,0,0,0.1);
+.dark iframe {
+	border: 10px solid rgba(255,255,255,0.1);
 }
 
 .dark a {
 	color: #FFF;
-}
-
-.dark .images img {
-  border: 2px solid rgba(255,255,255,0.1);
 }
 
 .small {
@@ -146,21 +141,9 @@ h3 {
 	margin: 20px 0 20px 0;
 }
 
-.downloads {
-	width: 90%;
-	margin: 20px;
-}
-
-.downloads th {
-	background-color: rgba(0,0,0,0.92);
-	text-align: left;
-	padding: 10px;
-	color: #fff;
-}
-
-.downloads td {
-	padding: 10px;
-	font-size: 95%;
+.mods img {
+	margin: 20px auto;
+	display: block;
 }
 
 .help img {
@@ -170,7 +153,37 @@ h3 {
 }
 
 .videos div > iframe {
-	float: left;
+	display: inline-block;
 	border: 10px solid rgba(0,0,0,0.5);
 	margin: 10px;
+	clear: none;
+	width: 378px;
+	height: 200px;
+}
+
+.videos div > .featured {
+	width: 800px;
+	height: 515px;
+}
+
+.inline-button {
+	cursor: pointer;
+	font-family: 'Orbitron';
+	background-color: #9E1B1B;
+	background-image: url('img/download.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #F9F9F9;
+	line-height: 26px;
+	padding: 20px;
+	padding-left: 60px;
+	display: block;
+	margin: 0 auto;
+	width: 220px;
+	font-weight: 600;
+	margin-top: 40px;
+	font-size: 1.2em;
+	cursor: pointer;
+	border: 4px solid rgba(0,0,0,0.2);
 }
