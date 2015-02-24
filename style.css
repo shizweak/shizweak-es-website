@@ -1,0 +1,176 @@
+body {
+	font-family: "Open Sans";
+}
+
+header {
+	display: table;
+	height: 589px;
+	width: 100%;
+	background-image: url('img/header.jpg');
+	background-position: top center;
+}
+
+.title {
+	font-family: 'Orbitron';
+	width: 90%;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.45);
+	text-align: center;
+}
+
+.title .site {
+	margin: 0;
+	color: red;
+	font-size: 25px;
+}
+
+.title .game {
+	margin: 0;
+	color: white;
+	font-size: 45px;
+}
+
+.donate {
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+}
+
+.donate form {
+	margin: 0 auto;
+}
+
+.box {
+	width: 500px;
+	margin: 60px auto 0;
+}
+
+.box .info {
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 30px;
+	padding: 20px;
+}
+
+.links span {
+	cursor: pointer;
+	font-family: 'Orbitron';
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 26px;
+	padding: 10px;
+	display: inline-block;
+	margin: 0;
+	width: 220px;
+	font-weight: 500;
+	margin-top: 40px;
+}
+
+.links span:last-child {
+	margin-left: 6px;
+	color: red;
+}
+
+.links span a {
+	color: inherit;
+	text-decoration: none;
+}
+
+section {
+	color: #484848;
+	margin: 20px auto 0;
+	padding: 20px;
+}
+
+.dark {
+	background-color: rgba(0,0,0,0.92);
+	color: #A4A4A4;
+}
+
+section > div {
+	max-width: 900px;
+	margin: auto;
+}
+
+section p {
+	line-height: 40px;
+	font-size: 140%;
+}
+
+section a {
+	color: #000;
+}
+
+section .images {
+	margin: 30px;
+	min-height: 80px;
+}
+
+section .images img {
+  float: left;
+  width: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 2px solid rgba(0,0,0,0.1);
+}
+
+.dark a {
+	color: #FFF;
+}
+
+.dark .images img {
+  border: 2px solid rgba(255,255,255,0.1);
+}
+
+.small {
+	padding-top: 20px;
+	font-size: 75%;
+}
+
+.medium {
+	font-size: 105%;
+	line-height: 20px;
+}
+
+h3 {
+	color: red;
+	font-family: 'Orbitron';
+	font-size: 180%;
+	margin: 20px 0 20px 0;
+}
+
+.downloads {
+	width: 90%;
+	margin: 20px;
+}
+
+.downloads th {
+	background-color: rgba(0,0,0,0.92);
+	text-align: left;
+	padding: 10px;
+	color: #fff;
+}
+
+.downloads td {
+	padding: 10px;
+	font-size: 95%;
+}
+
+.help img {
+	margin: 20px auto;
+	border: 10px solid rgba(255,255,255,0.1);
+	display: block;
+}
+
+.videos div > iframe {
+	float: left;
+	border: 10px solid rgba(0,0,0,0.5);
+	margin: 10px;
+}
