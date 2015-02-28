@@ -195,3 +195,41 @@ h3 {
 .inline-button a:visited {
   color: #fff;
 }
+
+.thanks h4 {
+	color: #F7F7F7;
+}
+
+.thanks > a {
+	text-decoration: none;
+}
+
+.thanks > a > div {
+	min-width: 350px;
+	min-height: 110px;
+	max-width: 350px;
+	max-height: 110px;
+	margin-top: 20px;
+	margin-left: 40px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.4);
+	vertical-align: top;
+	padding: 10px;
+}
+
+.thanks > a > div:hover {
+	background-color: rgba(192,5,10,0.4);
+	cursor: pointer;
+}
+
+.thanks > a > div p {
+	font-size: 0.8em;
+	line-height: 2em;
+	padding: 5px;
+	margin-top: 5px;
+	color: #525252;
+}
+
+.thanks > a > div:hover p {
+	color: #B4B4B4;
+}
